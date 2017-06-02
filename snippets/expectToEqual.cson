@@ -1,0 +1,6 @@
+".source.js, .source.jsx, .source.ts":
+  "expect().toEqual()":
+    "prefix": "toEqual"
+    "body": """
+      expect(${1:value}).toEqual(${2:value});
+      """
