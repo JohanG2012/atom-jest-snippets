@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle jest-enzyme-snippets",
+        "command": "jest-enzyme-snippets:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "jest-enzyme-snippets",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "jest-enzyme-snippets:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
