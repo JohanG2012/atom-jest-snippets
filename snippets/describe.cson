@@ -1,5 +1,5 @@
 ".source.js, .source.jsx, .source.ts":
-  "describe":
+  "describe()":
     "prefix": "desc"
     "body": """
       describe('${1:description}', () => {

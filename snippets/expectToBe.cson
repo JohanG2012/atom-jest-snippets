@@ -1,0 +1,6 @@
+".source.js, .source.jsx, .source.ts":
+  "expect().toBe()":
+    "prefix": "toBe"
+    "body": """
+      expect(${1:value}).toBe(${2:value}));
+      """

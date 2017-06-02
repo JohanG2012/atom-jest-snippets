@@ -1,0 +1,8 @@
+".source.js, .source.jsx, .source.ts":
+  "it()":
+    "prefix": "it"
+    "body": """
+      it("${1:description}", () => {
+        ${2:// Body...}
+        });
+      """
