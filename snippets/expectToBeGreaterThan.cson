@@ -1,0 +1,6 @@
+".source.js, .source.jsx, .source.ts":
+  "expect().toBeGreaterThan()":
+    "prefix": "toBeGreaterThan"
+    "body": """
+      expect(${1:10}).toBeGreaterThan(${2:5});
+      """
