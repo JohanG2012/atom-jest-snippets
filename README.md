@@ -1,4 +1,4 @@
-# jest-enzyme-snippets package
+# atom-jest-snippets package
 
 A short description of your package.
 
