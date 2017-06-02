@@ -1,0 +1,8 @@
+".source.js, .source.jsx, .source.ts":
+  "describe":
+    "prefix": "beforeEach"
+    "body": """
+      beforeEach(() => {
+        ${1:// Body...}
+      });
+      """
