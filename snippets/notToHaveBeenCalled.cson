@@ -1,0 +1,6 @@
+".source.js, .source.jsx, .source.ts":
+  "expect().not.toHaveBeenCalled()":
+    "prefix": "notToHaveBeenCalled"
+    "body": """
+      expect(${1:value}).not.toHaveBeenCalled();
+      """
