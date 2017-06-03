@@ -1,0 +1,8 @@
+".source.js, .source.jsx, .source.ts":
+  "afterEach()":
+    "prefix": "afterEach"
+    "body": """
+      afterEach(() => {
+        ${1:// Body...}
+      });
+      """
