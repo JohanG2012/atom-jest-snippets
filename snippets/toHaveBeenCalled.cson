@@ -1,0 +1,6 @@
+".source.js, .source.jsx, .source.ts":
+  "expect().toHaveBeenCalled()":
+    "prefix": "toHaveBeenCalled"
+    "body": """
+      expect(${1:value}).toHaveBeenCalled();
+      """
