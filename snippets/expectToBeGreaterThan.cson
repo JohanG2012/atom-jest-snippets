@@ -4,3 +4,9 @@
     "body": """
       expect(${1:10}).toBeGreaterThan(${2:5});
       """
+  # Shorthand
+  "expect().toBeGreaterThan()":
+    "prefix": "tbgt"
+    "body": """
+      expect(${1:10}).toBeGreaterThan(${2:5});
+      """
