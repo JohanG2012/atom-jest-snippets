@@ -2,11 +2,10 @@
   "expect().toBeGreaterThan()":
     "prefix": "toBeGreaterThan"
     "body": """
-      expect(${1:10}).toBeGreaterThan(${2:5});
+      expect(${1:value}).toBeGreaterThan(${2:value});
       """
-  # Shorthand
   "expect().toBeGreaterThan()":
     "prefix": "tbgt"
     "body": """
-      expect(${1:10}).toBeGreaterThan(${2:5});
+      expect(${1:value}).toBeGreaterThan(${2:value});
       """
