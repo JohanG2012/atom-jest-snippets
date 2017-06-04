@@ -2,5 +2,5 @@
   "expect().toBeDefined()":
     "prefix": "toBeDefined"
     "body": """
-      expect(${1:value}).toBeDefined();
+      expect(${1:value}).toBeDefined();$2
       """

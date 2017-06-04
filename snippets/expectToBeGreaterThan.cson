@@ -2,5 +2,5 @@
   "expect().toBeGreaterThan()":
     "prefix": "toBeGreaterThan"
     "body": """
-      expect(${1:value}).toBeGreaterThan(${2:value});
+      expect(${1:value}).toBeGreaterThan(${2:value});$3
       """

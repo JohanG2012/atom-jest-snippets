@@ -2,5 +2,5 @@
   "expect().toEqual()":
     "prefix": "toEqual"
     "body": """
-      expect(${1:value}).toEqual(${2:value});
+      expect(${1:value}).toEqual(${2:value});$3
       """

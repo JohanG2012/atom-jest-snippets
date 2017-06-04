@@ -4,5 +4,5 @@
     "body": """
       describe('${1:description}', () => {
         ${2:// Body...}
-      });
+      });$3
       """

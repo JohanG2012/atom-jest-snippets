@@ -2,5 +2,5 @@
   "expect().toHaveBeenCalled()":
     "prefix": "toHaveBeenCalled"
     "body": """
-      expect(${1:value}).toHaveBeenCalled();
+      expect(${1:value}).toHaveBeenCalled();$2
       """
