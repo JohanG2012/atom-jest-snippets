@@ -4,8 +4,3 @@
     "body": """
       expect(${1:value}).toBeGreaterThan(${2:value});
       """
-  "expect().toBeGreaterThan()":
-    "prefix": "tbgt"
-    "body": """
-      expect(${1:value}).toBeGreaterThan(${2:value});
-      """
